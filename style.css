@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+header
+{
+    display:flex;
+    justify-content: space-between;  
+    align-items: center;
+    background-color:rgb(178, 205, 254);
+    padding:1rem;
+    position: sticky;
+    top:0;  
+    
+}
+header h1
+{
+    font-family: 'poppins';
+    
+}
+nav ul
+{
+    display:flex;
+    list-style: none;
+}
+nav ul li
+{
+ margin-right:1em;
+ 
+}
+nav ul li a
+{
+white-space: nowrap;
+text-decoration: none;
+color:#120707;
+padding:0.3em;
+cursor: pointer;
+font-size:1.2em;
+font-weight:bold;
+font-family: 'Prompt', sans-serif;
+    
+}
+
+li a:focus,li a:hover
+{
+    transition: ease-in-out;
+    transition-timing-function: linear;
+    transition-duration: 0.5s;
+    background-color: black;
+    color:white;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.3);
+    border-radius:5px;  
+}
+.home
+{
+    display:flex;
+    justify-content: space-evenly;
+    margin:0px 20px 0 20px;
+    padding:50px;
+    column-gap:20px;
+    font-family: 'Prompt', sans-serif;
+    line-height: 2;
+    font-size:larger;
+}
+.aboutus
+{
+    display:flex;
+    justify-content: space-evenly;
+    margin:0px 20px 0 20px;
+    padding:50px;
+    column-gap:20px;
+    font-family: 'Prompt', sans-serif;
+    line-height: 2;
+    font-size:larger;
+   
+
+}
+.aboutus img
+{
+    border-radius: 50%;
+}
+h2
+{
+    font-size:xx-large;
+    font-family: 'Prompt', sans-serif;
+    margin-top:20px;
+}
+.founders
+{
+    display:flex;
+    column-gap:50px;
+    row-gap:20px;
+    flex-wrap: wrap;
+    margin:0px 20px 0 20px;
+    
+   
+}
+.card
+{
+    
+    padding:50px 100px 50px 100px;
+    text-align: center;
+    font-size:larger;
+    font-family: 'Prompt', sans-serif;
+    background-color: aliceblue;
+    box-shadow: 1px 1px 10px 1px;
+    border-radius: 20px;
+    
+}
+.card img
+{
+    border-radius:50%;
+}
+
+.faq
+{
+    margin:0px 30px 20px 30px;  
+    font-family: 'Prompt', sans-serif;
+    font-size: medium;
+    font-weight: 300;
+
+    
+}
+summary
+{
+    font-size: larger;
+}
+li
+{
+    list-style: none;  
+}
+fieldset
+{
+    margin:0px 30px 0px 30px; 
+    padding:20px;
+    line-height: 2;   
+    font-size: larger;
+    font-family: prompt;
+}
+button
+{
+    width: 100px;
+    height: 30px;
+    font-size: medium;
+    font-family: prompt;
+
+}
+footer
+{
+    font-size: medium;
+    font-family: prompt;
+    text-align: center;
+    height: 5vh;
+    align-items: center;  
+    background-color:rgb(178, 205, 254);
+    margin-top: 20px;
+    padding-top:5px;
+}
